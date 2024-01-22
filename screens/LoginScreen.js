@@ -75,7 +75,15 @@ const LoginScreen = () => {
             </TouchableOpacity>
           </Animated.View>
 
-          
+          <Animated.View
+            entering={FadeInDown.delay(600).duration(1000).springify()}
+            className="flex-row justify-center"
+          >
+            <Text>Don't have account?</Text>
+            <TouchableOpacity onPress={() => navigation.push("SignUp")}>
+              <Text className="text-sky-600 font-bold"> Sign Up</Text>
+            </TouchableOpacity>
+          </Animated.View>
         </View>
       </View>
     </View>
