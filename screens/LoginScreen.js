@@ -64,6 +64,17 @@ const LoginScreen = () => {
             />
           </Animated.View>
 
+          <Animated.View
+            entering={FadeInDown.delay(400).duration(1000).springify()}
+            className="w-full"
+          >
+            <TouchableOpacity className="bg-sky-400 p-3 rounded-2xl w-full mb-3">
+              <Text className="text-l font-bold text-white text-center">
+                Login
+              </Text>
+            </TouchableOpacity>
+          </Animated.View>
+
           
         </View>
       </View>
