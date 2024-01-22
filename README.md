@@ -1,6 +1,6 @@
 # Project Name
 
-A brief description of the project.
+React Native Login UI
 
 ## Table of Contents
 
@@ -11,16 +11,16 @@ A brief description of the project.
 
 ## Installation
 
-Instructions on how to install and set up the project.
+n/a
 
 ## Usage
 
-Instructions on how to use the project and any relevant examples.
+n/a
 
 ## Contributing
 
-Guidelines for contributing to the project and how to submit pull requests.
+n/a
 
 ## License
 
-Information about the project's license and any additional terms or conditions.
+n/a
