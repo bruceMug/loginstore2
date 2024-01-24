@@ -2,10 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
 import Animated, {
-  FadeIn,
   FadeInDown,
   FadeInUp,
-  FadeOut,
 } from "react-native-reanimated";
 import { useNavigation } from "@react-navigation/native";
 

@@ -2,10 +2,8 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { View, Text, Image, TextInput, TouchableOpacity } from "react-native";
 import Animated, {
-  FadeIn,
   FadeInDown,
   FadeInUp,
-  FadeOut,
 } from "react-native-reanimated";
 import { useNavigation } from "@react-navigation/native";
 
@@ -34,7 +32,7 @@ const SignupScreen = () => {
       </View>
 
       {/* form */}
-      <View className="h-full w-full flex justify-around pt-45">
+      <View className="h-full w-full flex justify-around pt-48">
         {/* Title */}
         <View className="flex items-center">
           <Animated.Text
@@ -46,7 +44,7 @@ const SignupScreen = () => {
         </View>
 
         {/* form */}
-        <View className="flex items-center mx-5 space-y-4 pt-10">
+        <View className="flex items-center mx-5 space-y-4 mt-10">
           <Animated.View entering={FadeInDown.duration(1000).springify()} className="bg-black/5 p-3 rounded-2xl w-full">
             <TextInput placeholder="Username" placeholderTextColor={"gray"} />
           </Animated.View>
@@ -70,7 +68,7 @@ const SignupScreen = () => {
             className="flex-row justify-center"
           >
             <Text>Already have an account?</Text>
-            <TouchableOpacity onPress={() => navigation.push("Login")}>
+            <TouchableOpacity onPress={() => navigation.push("Home")}>
               <Text className="text-sky-600 font-bold"> Login</Text>
             </TouchableOpacity>
           </Animated.View>
